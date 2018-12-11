@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Text Adventure</title>
+    <link href="stylesheets/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="parent">
+        <div id="name">
+            <label>Enter Your Name: <input type="text" id="username"></label>
+        </div>
+        <div class="child" id="header">
+            <img id="headerImage" src="images/headerImage.png">
+        </div>
+        <div class="child" id="plot">
+            <div id="story"></div>
+        </div>
+        <div class="child" id="instructions"></div>
+        <div class="child" id="buttonsContainer">
+            <button id="startBtn">Start</button>
+            <button id="actionBtn">Action</button>
+            <button id="restartBtn">Restart</button>
+        </div>
+        <div class="child" id="movementButtons">
+            <button id="northBtn">&#9651; North</button><br>
+            <button id="westBtn">&#9665; West</button>
+            <button id="eastBtn">&#9655; East</button><br>
+            <button id="southBtn">&#9661; South</button>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/movement.js"></script>
+    <script src="scripts/gameplay.js"></script>
+
+
+</body>
+</html>

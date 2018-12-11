@@ -1,0 +1,52 @@
+{
+        "introduction":{
+                "part0":"Welcome to Space Adventure: The Text Begins!",
+                "part1":"You are Roger Wilco! A janitor on a spacestation orbiting the moon of Praxus.",
+                "part2":"You traded shifts with Bob and you forgot to check the duty schedule. You get to clean the ouside of the station you lucky dog you!",
+                "part3":"Resigned to your fate you proceed to the airlock.",
+                "part4":"As you enter the airlock you see spacesuits hanging on racks. Before proceeding out the airlock you decide to..."
+        },
+        "movement":{
+                "north":{
+                        "success":"You head north...",
+                        "failure":"You attempt to head north and bang your head into a wall."
+                },
+                "south":{
+                        "success":"You head south...",
+                        "failure":"You attempt to head south and bang your head into a wall.",
+                        "falureCC":"You smash your face into the Command Center's door. You still need your keycard!"
+                },
+                "west":{
+                        "success":"You head west...",
+                        "failure":"You attempt to head west and bang your head into a wall."
+                },
+                "east":{
+                        "success":"You head east...",
+                        "failure":"You attempt to head east and bang your head into a wall."
+                }
+        },
+        "rooms":{
+                "room1":"You enter the main corridor. To your north are the barracks, to the south the command center, to the east the airlock, and to the west the cafeteria. The command center is locked, and you lost your keycard a week ago.",
+                "room1a":"You notice the main corridor is completely empty. Odd...maybe it's taco night!",
+                "room1b":"You enter the main corridor. To your north are the barracks, to the south the command center, to the east the airlock, and to the west the cafeteria.",
+                "room2":"You enter the barracks.",
+                "room2a":"The barracks is also empty. You wonder if there's a party going on somewhere. In the meantime you need to find that keycard or your pay is going to get docked.",
+                "room3":"You enter the airlock.",
+                "room4":"You enter the command center.",
+                "room5":"You enter the cafeteria.",
+                "room5a":"As you survey the empty cafeteria you realize that it isn't Tuesday and couldn't possibly be Tacos for dinner.",
+                "room6":"You exit the airlock hatch and find yourself on the outside of the station."
+        },
+        "climax":{
+                "part0":"As you begin to search the command center for anyone. You see movement out of the corner of your eye.",
+                "part1":"When you turn your head to look, a monster made of sludge lunges at you!",
+                "part2":"You reel backwards and fall to the ground. it's initial lunge missing you.",
+                "part3a":"You are armed only with a spoon.",
+                "part3b":"You have nothing on you to defend yourself.",
+                "part4":"You can either run or attempt to fight."
+        },
+        "epilogue":{
+                "success":"You successfully defeated the monster. A week later a relief crew finds you. You regal them with stories about how you defeated the monster barehanded despite the insurmountable odds.",
+                "failure":"You failed to stop the monster. The relief crew docks at the station a week later and they too are devoured. If only you had been able to defeat it!"
+        }
+}
